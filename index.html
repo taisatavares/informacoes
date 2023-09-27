@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section>
+        <div>
+            <p>Nome:</p>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <p>Cidade:</p>
+            <input type="text" name="cidade" id="cidade">
+        </div>
+        <div>
+            <p>Ano de nascimento:</p>
+            <input type="text" name="ano" id="ano">
+        </div>
+        <div>
+            <p>Sexo:</p>
+            <input type="radio" name="radsex" id="masc" checked>
+            <label>Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label>Feminino</label>
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Resultado" onclick="resultado()">
+        </div><br>
+        <div id="res">Preencha os dados acima para ver o resultado</div>
+    </section>
+    <p></p>
+    
+    <script src="teste.js"></script>
+</body>
+</html>
